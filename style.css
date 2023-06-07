@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+/* font-family: 'Poppins', sans-serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f8f9ff;
+  flex-direction: column;
+  position: relative;
+}
+
+main {
+  background-color: #ffffff;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly; */
+  padding: 10px;
+  width: 365px;
+  position: relative;
+  box-shadow: -2px -3px 5px #e4ecfa;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+header .addtn {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  background-color: #8b82f0;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  cursor: pointer;
+}
+header i {
+  vertical-align: middle;
+  margin-top: 15px;
+  color: #ffffff;
+}
+.title {
+  color: #1c1e27;
+}
+.search {
+  display: flex;
+  align-items: center;
+  background-color: #f8f9ff;
+  padding: 8px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 2px solid #e8eaf9;
+  color: #c4c2d0;
+}
+.find i {
+  font-size: 20px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+#search {
+  outline: none;
+  border: none;
+  padding: 10px;
+  color: #000;
+  font-weight: bold;
+}
+.lock-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 15px 10px;
+}
+.lockLink {
+  font-size: 0.9rem;
+  cursor: pointer;
+  color: #02052b;
+}
+.lock i {
+  font-size: 1.2rem;
+  color: #313237;
+}
+.lock i:hover {
+  color: lightgreen;
+}
+.link-show {
+  margin-left: 50px;
+  margin-bottom: 100px;
+  margin-top: 10px;
+}
+.lockLink:hover {
+  color: #8b82f0;
+}
+a {
+  color: #a59dee;
+}
+footer {
+  text-align: center;
+  background-color: #8b82f0;
+  height: 70px;
+  width: 365px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+footer h3 {
+  margin-top: 20px;
+  color: #ffffff;
+}
+
+body::after {
+  position: absolute;
+  content: "";
+  height: 100vh;
+  width: 150px;
+  top: 0;
+  right: 45%;
+  background-color: #ffd8b8;
+  z-index: -1;
+}
